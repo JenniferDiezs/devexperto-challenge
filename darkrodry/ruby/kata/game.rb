@@ -12,7 +12,7 @@ class Game
 
   def score
     score = 0
-    frame = 0
+    frame = 9
     10.times do
       if is_strike?(frame)
         score += 10 + count_strike_bonus(frame)
